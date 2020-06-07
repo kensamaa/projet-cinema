@@ -28,8 +28,8 @@ public class Ticket {
 	@Column(length = 75)
 	private String nomClient;
 	private double prix;
-	@Column(unique = true)
-	private int codePayement;
+	@Column(unique = false)
+	private Integer codePayement;
 	private boolean reserve;
 	@ManyToOne
 	private Place place;

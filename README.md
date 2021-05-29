@@ -1,2 +1,2 @@
 # projet-cinema
-creating a cinema managment projet using spring as backend and reactjs as front end
+creating a cinema managment projet using spring as backend and angular as front end
